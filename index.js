@@ -5,7 +5,7 @@ module.exports = function (arity, efn, gfn) {
     arity = false;
   }
   return function (err) {
-    if (err) return efn.call(this, err);
+    if (err) return efn.apply(this, arguments);
     else return gfn.apply(this, Array.prototype.slice.call(arguments, 1));
   };
   if (arity === 0) return function () { return rt.apply(this, arguments); };

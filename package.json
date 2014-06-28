@@ -1,6 +1,6 @@
 {
   "name": "ef",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "please simply refer the source code to get how it works :)",
   "main": "index.js",
   "scripts": {

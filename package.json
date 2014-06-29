@@ -1,6 +1,6 @@
 {
   "name": "ef",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "please simply refer the source code to get how it works :)",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/undoZen/ef/issues"
   },
-  "homepage": "https://github.com/undoZen/ef"
+  "homepage": "https://github.com/undoZen/ef",
+  "dependencies": {
+    "fn-arity": "0.0.1"
+  }
 }
